@@ -66,11 +66,6 @@ function generatePassword() {
     randomPasswordGenerated += randomNumberPicked;
 
   }
-
-
-
-
-  // to make sure characters are added to the password
   randomPasswordGenerated += minimumNumbers;
   randomPasswordGenerated += minimumLowerCases;
   randomPasswordGenerated += minimumUpperCases;
